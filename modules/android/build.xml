@@ -1,0 +1,16 @@
+<project name="crashtestdummyandroid" default="dist">
+	<description>
+		Ant build script for Titanium Android module CrashTestDummyAndroid
+	</description>
+
+	<property name="ti.module.root" location="${basedir}"/>
+	<property file="build.properties" />
+
+	<import file="${titanium.platform}/../module/android/build.xml"/>
+
+	<target name="pre.dist">
+		<delete includeemptydirs="true" failonerror="false">
+			<fileset dir="${libs}" includes="**/libstlport_shared.so"/>
+		</delete>
+	</target>
+</project>
