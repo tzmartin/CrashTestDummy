@@ -1,3 +1,4 @@
 .DS_Store
 tester/build/
 tester/build.log
+modules/ios/iphone/Build/
