@@ -23,8 +23,8 @@ import org.appcelerator.titanium.view.TiUIView;
 import android.app.Activity;
 
 
-// This proxy can be created by calling Crashtestdummyandroid.createExample({message: "hello world"})
-@Kroll.proxy(creatableInModule=CrashtestdummyandroidModule.class)
+// This proxy can be created by calling Crashtestdummy.createExample({message: "hello world"})
+@Kroll.proxy(creatableInModule=CrashtestdummyModule.class)
 public class ExampleProxy extends TiViewProxy
 {
 	// Standard Debugging variables
@@ -76,12 +76,12 @@ public class ExampleProxy extends TiViewProxy
 	public void handleCreationDict(KrollDict options)
 	{
 		super.handleCreationDict(options);
-		
+
 		if (options.containsKey("message")) {
 			Log.d(LCAT, "example created with message: " + options.get("message"));
 		}
 	}
-	
+
 	// Methods
 	@Kroll.method
 	public void printMessage(String message)

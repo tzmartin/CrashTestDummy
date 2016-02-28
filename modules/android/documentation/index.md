@@ -1,27 +1,27 @@
-# CrashTestDummyAndroid Module
+# crashtestdummy Module
 
 ## Description
 
 TODO: Enter your module description here
 
-## Accessing the CrashTestDummyAndroid Module
+## Accessing the crashtestdummy Module
 
 To access this module from JavaScript, you would do the following:
 
-	var CrashTestDummyAndroid = require("ti.crashtestdummy");
+    var crashtestdummy = require("ti.crashtestdummy");
 
-The CrashTestDummyAndroid variable is a reference to the Module object.	
+The crashtestdummy variable is a reference to the Module object.
 
 ## Reference
 
 TODO: If your module has an API, you should document
 the reference here.
 
-### ___PROJECTNAMEASIDENTIFIER__.function
+### crashtestdummy.function
 
 TODO: This is an example of a module function.
 
-### ___PROJECTNAMEASIDENTIFIER__.property
+### crashtestdummy.property
 
 TODO: This is an example of a module property.
 
@@ -32,7 +32,7 @@ TODO: Enter your usage example here
 ## Author
 
 TODO: Enter your author name, email and other contact
-details you want to share here. 
+details you want to share here.
 
 ## License
 

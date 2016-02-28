@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: crashtestdummy
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: crashtestdummy
+moduleid: ti.crashtestdummy
+guid: b99d0e9a-ab46-4180-9c85-85545980230d
+platform: android
+minsdk: 5.1.2.GA

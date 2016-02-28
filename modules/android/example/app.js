@@ -1,6 +1,6 @@
 // This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
+// You should do something interesting in this harness
+// to test out the module and to provide instructions
 // to users on how to use it by example.
 
 
@@ -13,16 +13,16 @@ win.add(label);
 win.open();
 
 // TODO: write your module tests here
-var CrashTestDummyAndroid = require('ti.crashtestdummy');
-Ti.API.info("module is => " + CrashTestDummyAndroid);
+var crashtestdummy = require('ti.crashtestdummy');
+Ti.API.info("module is => " + crashtestdummy);
 
-label.text = CrashTestDummyAndroid.example();
+label.text = crashtestdummy.example();
 
-Ti.API.info("module exampleProp is => " + CrashTestDummyAndroid.exampleProp);
-CrashTestDummyAndroid.exampleProp = "This is a test value";
+Ti.API.info("module exampleProp is => " + crashtestdummy.exampleProp);
+crashtestdummy.exampleProp = "This is a test value";
 
 if (Ti.Platform.name == "android") {
-	var proxy = CrashTestDummyAndroid.createExample({
+	var proxy = crashtestdummy.createExample({
 		message: "Creating an example Proxy",
 		backgroundColor: "red",
 		width: 100,
