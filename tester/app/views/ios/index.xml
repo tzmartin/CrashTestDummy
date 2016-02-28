@@ -1,0 +1,7 @@
+<Alloy>
+	<NavigationWindow>
+		<Window>
+			<TableView id="table" />
+		</Window>
+	</NavigationWindow>
+</Alloy>
